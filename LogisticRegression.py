@@ -49,7 +49,7 @@ def averageCost(temp):
         total = total + (y_pred - j)*i[temp]
     return total/len(X_train)
 
-#calculating cost for each theta
+#calculating derivative of cost function for each theta
 cost = [0,0,0,0]
 
 def updateCostMatrix():
